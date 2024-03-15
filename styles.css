@@ -1,0 +1,36 @@
+body {
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image: linear-gradient(45deg, #F3AE, #9CBAED);
+}
+
+.card1 {
+    margin: 0;
+	width: 400px;
+	height: 300px;
+	border: 1px dashed #000;
+	background-color: rgb(187, 77, 159);
+	box-sizing: border-box;
+}
+
+.card2 {
+    margin: 0;
+	width: 400px;
+	height: 300px;
+	border: 1px dashed #000;
+	background-color: rgb(187, 77, 159);
+	box-sizing: border-box;
+}
+
+.card3 {
+    margin: 0;
+	width: 400px;
+	height: 300px;
+	border: 1px dashed #000;
+	background-color: rgb(187, 77, 159);
+	box-sizing: border-box;
+}
