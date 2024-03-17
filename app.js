@@ -52,7 +52,7 @@ const films = [
         ],
         date: 2009,
         evaluation: 7.7,
-        countries: COUNTRIES[0],
+        countries: [COUNTRIES[0]],
         director: DIRECTORS[1],
         music: COMPOSERS[2],
         duration: 162,
@@ -67,7 +67,7 @@ const films = [
         ],
         date: 2018,
         evaluation: 9.7,
-        counties: [
+        countries: [
             COUNTRIES[0],
             COUNTRIES[1]
         ],
@@ -93,8 +93,4 @@ const films = [
     },
 ];
 
-console.log(GENRES);
-console.log(films);
-
-    // Я хочу вывести массив в карты.
-    // Хочу сделать отступ от карт, чтобы не слипались.
+renderCardList(films);

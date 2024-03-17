@@ -7,23 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"></link>
 </head>
-
 <body>
-    <div class="card3">
-        <ul>
-            <li></li>
-        </ul>
-    </div>
-    <div class="card2">
-        <ul>
-            <li></li>
-        </ul>
-    </div>
-    <div class="card1">
-        <ul>
-            <li></li>
-        </ul>
-    </div>
+
+    <div class="card-list"></div>
+
+    <template id="card">
+        <div class="card">
+            <ul>
+                <li class="title"></li>
+                <li class="genres"></li>
+                <li class="date"></li>
+                <li class="evaluation"></li>
+                <li class="countries"></li>
+                <li class="director"></li>
+                <li class="music"></li>
+                <li class="duration"></li>
+            </ul>
+        </div>
+    </template>
+
+    <script src="card-list.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
