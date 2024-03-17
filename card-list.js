@@ -14,7 +14,6 @@ function renderCardList(films) {
         filmElement.querySelector('.director').textContent = film.director.firstName
         filmElement.querySelector('.music').textContent = film.music.firstName
         filmElement.querySelector('.duration').textContent = film.duration
+        cardListElement.append(filmElement);
     }
-
-    cardListElement.append(filmElement);
 }

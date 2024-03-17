@@ -15,7 +15,7 @@ body {
 
 .card {
 	display: flex;
-    margin: 2y0px 0;
+    margin: 2px 0;
 	width: 300px;
 	border: 1px dashed #000;
 	background-color: rgb(231, 221, 229);
